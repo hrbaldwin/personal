@@ -1,5 +1,5 @@
 import React from "react";
-import { Opening } from "./";
+import { LandingPage } from "./";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -10,7 +10,7 @@ import {
 const Main = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Opening />}>
+      <Route path="/" element={<LandingPage />}>
         {" "}
       </Route>
     )

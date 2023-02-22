@@ -1,0 +1,45 @@
+
+#opening {
+    /* flex-grow: 1; */
+    /* max-height: 10%;
+    min-height: 40px; */
+    /* background-color: #222222; */
+    color: white;
+    /* display: flex; */
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    /* border: solid 2px red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: 20% 0 0 8%; */
+    background-image: url("https://i.imgur.com/KLEBSiT.png");
+  }
+  
+  #name {
+    font-size: 50px;
+    margin-bottom: 1px;
+  }
+
+  #title {
+    font-size: 25px;
+  }
+  
+ .bio {
+    /* border: 2px solid red; */
+    margin-top: 15%;
+    font-size: 21px;
+  }
+  #arrow {
+    font-size: 50px;
+    margin-left: 80%;
+    margin-top: -8%;
+  }
+  .secondDiv{
+    background-image: url("https://i.imgur.com/TeDb7Aq.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+    height: 100vh;
+    width: 100vw;
+  }

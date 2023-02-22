@@ -1,2 +1,2 @@
 export { default as Main } from "./Main";
-export { default as Opening } from "./opening/Opening";
+export { default as LandingPage } from "./opening/LandingPage";
