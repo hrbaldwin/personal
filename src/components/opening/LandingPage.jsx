@@ -13,16 +13,17 @@ import {
   Move,
   MoveOut,
 } from "react-scroll-motion";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   const FadeUp = batch(Fade(), Move(), Sticky(25, 45));
   const ZoomInScrollOut = batch(StickyIn(25, 45), FadeIn(), ZoomIn());
   return (
     <ScrollContainer>
-      <ScrollPage>
+      <ScrollPage className="image1">
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
           {" "}
-          <div id="opening">
+          <div id="openingPage">
             <h2 id="name">rebecca baldwin</h2>
             <p id="title">frontend web developer with fullstack training</p>
 
@@ -37,9 +38,26 @@ const LandingPage = () => {
           </div>
         </Animator>
       </ScrollPage>
-      <ScrollPage page={1}>
-        <div className="secondDiv">
-          <h2>second page</h2>
+      <ScrollPage page={1} className="image2">
+        <div id="secondPage">
+          <div className="portfolioSection">
+            <h3>my portfolio</h3>
+            <a
+              href="https://capstone-frontend-9o2e.onrender.com/"
+              target="_blank"
+            >
+              <img
+                src="https://i.imgur.com/YgZzcVO.png"
+                alt="image of GuitarStop"
+                className="guitarStop"
+              />
+            </a>
+          </div>
+          <div>
+            <h3>connect with me</h3>
+            <p>LinkedIn</p>
+            <p>GitHub</p>
+          </div>
         </div>
       </ScrollPage>
     </ScrollContainer>

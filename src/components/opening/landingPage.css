@@ -1,30 +1,30 @@
-
-#opening {
-    /* flex-grow: 1; */
-    /* max-height: 10%;
-    min-height: 40px; */
-    /* background-color: #222222; */
+/* ----- pages and images ----- */
+  #openingPage {
     color: white;
-    /* display: flex; */
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    /* border: solid 2px red; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* margin: 20% 0 0 8%; */
-    background-image: url("https://i.imgur.com/KLEBSiT.png");
   }
-  
+  #secondPage {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .image1{
+    background-image: url("https://i.imgur.com/KLEBSiT.png");
+    background-size: cover; 
+  }
+  .image2{
+    background-image: url("https://i.imgur.com/TeDb7Aq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  /* ----- page one details ------ */
   #name {
     font-size: 50px;
     margin-bottom: 1px;
   }
-
   #title {
     font-size: 25px;
   }
-  
  .bio {
     /* border: 2px solid red; */
     margin-top: 15%;
@@ -35,11 +35,11 @@
     margin-left: 80%;
     margin-top: -8%;
   }
+    /* ----- page two details ------ */
   .secondDiv{
-    background-image: url("https://i.imgur.com/TeDb7Aq.png");
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
     height: 100vh;
     width: 100vw;
+  }
+  .guitarStop{
+    max-height: 20vh;
   }
