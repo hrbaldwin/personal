@@ -40,6 +40,28 @@
     height: 100vh;
     width: 100vw;
   }
+  .portfolioSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .guitarStop{
     max-height: 20vh;
+  }
+  .connectSection{
+    margin-left: 20px;
+  }
+  .connectIcon{
+    max-height: 3vh;
+  }
+  .connectLine{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .becPic{
+    max-height: 30vh;
   }
