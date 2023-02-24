@@ -44,12 +44,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
   }
   .guitarStop{
     max-height: 20vh;
   }
   .connectSection{
     margin-left: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .connectIcon{
     max-height: 3vh;
@@ -62,6 +67,31 @@
     text-decoration: none;
     color: white;
   }
+  .aboutSection{
+    max-width: 35vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10vh;
+  }
+  .aboutHeader{
+    align-self: flex-start;
+    margin: 0 0 0 3vh;
+    font-size: 27px;
+  }
   .becPic{
-    max-height: 30vh;
+    max-width: 14vw;
+  }
+  .middleDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5vw 0 5vw;
+  }
+  .thanks{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    font-size: 25px;
   }
