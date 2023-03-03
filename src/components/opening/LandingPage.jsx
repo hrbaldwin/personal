@@ -77,7 +77,7 @@ const LandingPage = () => {
               <p className="connectLine">haileyrebeccabaldwin@gmail.com</p>
             </div>
             <div className="aboutSection">
-              <img src="https://i.imgur.com/nXNSSh1.jpg" className="becPic" />
+              <img src="https://i.imgur.com/NEc0NmB.png" className="becPic" />
               <h3 className="aboutHeader">about me</h3>
               <p>
                 I am a recent graduate from the Colorado State University
