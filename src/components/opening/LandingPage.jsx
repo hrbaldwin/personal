@@ -80,9 +80,13 @@ const LandingPage = () => {
               <img src="https://i.imgur.com/WtY8VHN.png" className="becPic" />
               <h3 className="aboutHeader">about me</h3>
               <p>
-                I am a recent graduate from the Colorado State University
-                Professional Certification software engineering program
-                partnered with Fullstack Academy. This project-based learning
+                I am a fullstack developer with a special interest in frontend
+                development. My creative thinking allows for both beautiful
+                designs and innovative solutions. I am currently completing my
+                degree in Computer Science at Colorado State University.
+                Additionally, I successfully completed Colorado State
+                University's Professional Certification in web development in
+                partnership with Fullstack Academy. This project-based learning
                 sparked my passion for creating web applications and sharpened
                 my skillset. I enjoy and thrive in the ever-constant learning
                 that comes with being a developer. My past in customer service
